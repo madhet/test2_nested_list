@@ -1,0 +1,11 @@
+{
+  "name": "nested-list",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "concurrently": "^4.0.1"
+  },
+  "scripts": {
+    "start": "concurrently \"cd Backend && nodemon server.js\" \"cd Frontend && npm start\""
+  }
+}
