@@ -1,6 +1,6 @@
 import React from 'react'
 import { connect } from "react-redux";
-import { apiClient } from '../request'
+import { apiClient } from '../../request'
 import ReduxTreeBranch from './ReduxTreeBranch'
 
 const addSublist = parent => async dispatch => {

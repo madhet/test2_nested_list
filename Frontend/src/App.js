@@ -1,8 +1,8 @@
 import React from 'react';
 import './main.css'
-import ListTree from './components/ListTree'
-import ReducerTree from './components/ReducerTree'
-import ReduxTree from './components/ReduxTree'
+import ListTree from './components/withProps/ListTree'
+import ReducerTree from './components/withUseReducer/ReducerTree'
+import ReduxTree from './components/withRedux/ReduxTree'
 
 function App() {
 

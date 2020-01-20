@@ -1,5 +1,5 @@
 import React, { useState, useReducer, useEffect } from 'react'
-import { apiClient } from '../request.js'
+import { apiClient } from '../../request.js'
 
 const initialState = {
   lists: null,

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { connect } from "react-redux";
-import { apiClient } from '../request'
+import { apiClient } from '../../request'
 import ReduxTreeNode from './ReduxTreeNode'
 
 const addItem = (parent, title) => async dispatch => {

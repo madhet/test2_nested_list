@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { request } from '../request'
+import { request } from '../../request'
 import ListTreeBranch from './ListTreeBranch'
 
 export default function ListTree(props) {

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { Provider, connect } from "react-redux";
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
-import { apiClient } from '../request'
+import { apiClient } from '../../request'
 import ReduxTreeBranch from './ReduxTreeBranch'
 
 const initialState = {
